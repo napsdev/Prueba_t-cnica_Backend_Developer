@@ -65,5 +65,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 =======
-# Prueba_t-cnica_Backend_Developer
+# Prueba_tecnica_Backend_Developer
 Prueba técnica Backend Developer, Bodytech (Laravel) CRUD y carro de compras. 
