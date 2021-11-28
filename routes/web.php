@@ -20,9 +20,9 @@ Route::get('/', function () {
 });
 
 //Rutas del controlador de productos
-Route::resource('productos', ProductoController::class);
+Route::resource('productos', ProductoController::class)->middleware('auth');
 
-Auth::routes();
+Auth::routes(['register'=>false, 'reset'=>false]);
 
 Route::get('/home', [ProductoController::class, 'index'])->name('home');
 

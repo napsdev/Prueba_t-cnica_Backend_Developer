@@ -30,7 +30,7 @@
             <td>{{ $item->descripcion }}</td>
             <td>{{ $item->cantidad }}</td>
             <td>
-                <img src="{{ asset('storage').'/'.$item->foto }}" alt="{{ $item->nombre }}" width="100px">
+                <img class="img-thumbnail img-fluid" src="{{ asset('storage').'/'.$item->foto }}" alt="{{ $item->nombre }}" width="100px">
             </td>
             <td>
                 <a href="{{ url('/productos/'.$item->id.'/edit') }}">Editar</a>
